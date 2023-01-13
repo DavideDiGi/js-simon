@@ -63,7 +63,7 @@ for (let i = 1; i < 6; i++) {
     
 }
 
-let countDown = 3;
+let countDown = 30;
 
 const clock = setInterval(function () {
 
