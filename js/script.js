@@ -22,7 +22,6 @@ let fourthAnswer;
 let fifthQuest;
 let fifthAnswer;
 let points = 0;
-console.log('points', points)
 for (let i = 1; i < 6; i++) {
     
     num += i;
@@ -83,7 +82,7 @@ const clock = setInterval(function () {
     setTimeout (function () {
        if (firstAnswer == true) {
         points =+ 1;
-        console.log('points', points)
+    
         secondQuest =  prompt('Inserisci il secondo numero:');
        }
         else if (firstAnswer == false) {
@@ -93,7 +92,7 @@ const clock = setInterval(function () {
     setTimeout (function () {
        if (secondAnswer == true) {
         points ++;
-        console.log('points', points)
+    
         thirdQuest =  prompt('Inserisci il terzo numero:');
        }
         else if (secondAnswer == false) {
@@ -104,7 +103,7 @@ const clock = setInterval(function () {
     setTimeout (function () {
        if (thirdAnswer == true) {
         points ++;
-        console.log('points', points)
+    
         fourthQuest =  prompt('Inserisci il quarto numero:');
        }
         else if (thirdAnswer == false) {
@@ -115,7 +114,7 @@ const clock = setInterval(function () {
     setTimeout (function () {
        if (fourthAnswer == true) {
         points ++;
-        console.log('points', points)
+    
         fifthQuest =  prompt('Inserisci il quinto numero:');
        }
         else if (fourthAnswer == false) {
@@ -125,7 +124,7 @@ const clock = setInterval(function () {
     setTimeout (function () {
        if (fifthAnswer == true) {
         points ++;
-        console.log('points', points)
+    
         prompt('Mi dispiace, hai una pessima memoria. Hai perso.');
        }
         else if (fifthAnswer == false) {
